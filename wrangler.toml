@@ -39,10 +39,11 @@ LOG_FORMAT = "json"
 # 生产环境标识
 NODE_ENV = "production"
 
-[[env.production.d1_databases]]
+#[[env.production.d1_databases]]
+[[d1_databases]]
 binding = "DB"
 database_name = "katelyatv-db"
-database_id = "your-d1-database-id-here"
+database_id = "0bf3d82a-3b6a-4839-8d9d-daa6a0bc4b6b"
 
 [build]
 command = "pnpm pages:build"
